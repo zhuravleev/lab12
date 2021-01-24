@@ -30,6 +30,62 @@ body{
 }
 
 .h2{
-    padding-top: 50px; 
+    margin-top: 50px; 
+    margin-bottom: 10px;
     font-size: 30px;
+}
+
+input{
+    background-color: #DC143C;
+    outline: none;
+    width: 250px;
+    height: 30px; 
+    border: 4px solid #FFF0F5;
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 7px; 
+    margin-bottom: 10px;
+}
+
+
+.kolvo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: #EE82EE;
+    width: 80px;
+    height: 30px; 
+    border: 3px solid #F0FFF0;
+    border-radius: 15px;
+}
+
+
+.disabled{
+    background-color: #E6E6FA;
+    width: 80px;
+    height: 30px; 
+    border: 3px solid #F0FFF0;
+    border-radius: 15px;
+}
+
+
+form{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.spisok{
+    margin-top: 30px;
+}
+
+.spisok__net{
+    margin-top: 20px;
+}
+
+.spisok__people{
+    margin-top: 20px;
 }
